@@ -14,7 +14,7 @@ $ cd microservices-accurest-provider
 $ ./mvnw clean test
 ----
 
-. This will result in the creation of a http://wiremock.org/[WireMock] mapping file and a test code to verify this API server actually provides the expected contract. Here's a current example:
+. This will result in the creation of a http://wiremock.org/[WireMock] mapping file and a test code to verify this API server actually provides https://github.com/making/microservices-accurest/blob/master/microservices-accurest-provider/src/test/resources/accurest/requestForFoos.groovy[the expected contract]. Here's a current example:
 +
 `target/accurest/mappings/requestForFoos.json`
 +
