@@ -11,7 +11,4 @@ public class MvcTest {
         RestAssuredMockMvc.standaloneSetup(new Application());
     }
 
-    public void assertThatRejectionReasonIsNull(Object rejectionReason) {
-        assert rejectionReason == null;
-    }
 }
