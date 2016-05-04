@@ -5,7 +5,11 @@ io.codearte.accurest.dsl.GroovyDsl.make {
     }
     response {
         status 200
-        body([[value: 42], [value: 100]])
+        body( """[ {
+        "value" : 42
+      }, {
+        "value" : 100
+      } ]""")
         headers {
             header('Content-Type': 'application/json;charset=UTF-8')
         }
