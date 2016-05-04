@@ -1,9 +1,9 @@
-= Spring Boot Microservices + AccuREST
+= Spring Boot Microservices + Accurest
 
 This project contains a *very simple* demo of using http://martinfowler.com/articles/consumerDrivenContracts.html[consumer-driven contracts] to verify the interactions between microservices.
 It leverages http://projects.spring.io/spring-boot[Spring Boot] for both the provider and consumer services.
 
-Testing is achieved using the http://codearte.github.io/accurest[AccuREST] project.
+Testing is achieved using the http://codearte.github.io/accurest[Accurest] project.
 
 == Running the Demo
 
